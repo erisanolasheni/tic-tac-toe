@@ -9,8 +9,9 @@
     </head>
     <body>
         <div class="game-panel" id="game-panel">
-                <h1>Welcome To X-AND-O Game With JavaScript</h1>
-                <div class="player1-label">Player 1: X (<span id="p1-count">0</span>)</div> <div class="player2-label">Player 2: O (<span id="p2-count">0</span>)</div>
+            <h1>Welcome To X-AND-O Game With JavaScript</h1>
+            <div id="player1-label" class="nextTurn">Player 1: X (<span id="p1-count">0</span>)</div>
+            <div id="player2-label">Player 2: O (<span id="p2-count">0</span>)</div>
             <ul class="game-console">
                 <li data-index="0"></li>
                 <li data-index="1"></li>
@@ -24,6 +25,7 @@
                 <li data-index="7"></li>
                 <li data-index="8"></li>
             </ul>
+            <button type="button" onclick="confirm('Are you sure you want to reset this game?')?game.resetGame(0,0):false;">Reset</button>
         </div>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
