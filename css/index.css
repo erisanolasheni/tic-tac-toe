@@ -3,7 +3,7 @@ html, html * {
 }
 
 .game-panel {
-    width: 50%;
+    width: 60%;
     overflow: hidden;
     text-align: center;
     position: relative;
@@ -27,7 +27,8 @@ html, html * {
     padding: 5px;
     border: solid 1px #999;
     cursor: pointer;
-    background: url('') no-repeat center #fff/40px 40px;
+    background: url('') no-repeat center #fff;
+    background-size: 100%;
     /* transition: all 0.1s ease-in-out; */
 }
 
@@ -44,7 +45,7 @@ html, html * {
 }
 #player1-label, #player2-label
 {
-    font-size: 2em;
+    font-size: 1.2em;
     float: left;
 }
 
