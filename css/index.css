@@ -1,0 +1,42 @@
+html, html * {
+    box-sizing: border-box;
+}
+
+.game-panel {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.game-console{
+    width: 100%;
+    float: none;
+    display: inline-block;
+    margin: 1em auto;
+    padding: 0;
+}
+
+.game-console li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    border: solid 1px #999;
+    cursor: pointer;
+    background: url('') no-repeat center #fff/40px 40px;
+    /* transition: all 0.1s ease-in-out; */
+}
+
+.virgin {
+    background-color: whitesmoke;
+}
+
+.x {
+    background-image: url('../img/x.png') !important;
+}
+
+.o {
+    background-image: url('../img/o.png') !important;
+}
