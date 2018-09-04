@@ -1,5 +1,5 @@
 ## Cross &amp; Noughts Game With JavaScript
-This is a Cross/Noughts (X and O) game with pure JavaScript, no library or framework. Written with in ES6.
+This is a Cross/Noughts (X and O) game with pure JavaScript, no library, no framework. Written in ES6.
 
 ### Player 1
 Player 1 is automatically given X
