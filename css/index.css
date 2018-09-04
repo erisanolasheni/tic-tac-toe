@@ -3,7 +3,7 @@ html, html * {
 }
 
 .game-panel {
-    width: 80%;
+    width: 50%;
     overflow: hidden;
     text-align: center;
     position: relative;
