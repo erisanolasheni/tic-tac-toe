@@ -1,4 +1,4 @@
-## Cross &amp; Noughts Game With JavaScript
+## Tic Tac Toe Game With JavaScript
 This is a Cross/Noughts (X and O) game with pure JavaScript, no library, no framework. Written in ES6.
 
 ### Player 1
